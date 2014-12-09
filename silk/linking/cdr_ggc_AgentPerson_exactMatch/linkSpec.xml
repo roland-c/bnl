@@ -1,0 +1,21 @@
+<Interlink id="cdr_ggc_AgentPerson_exactMatch">
+  <LinkType>&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</LinkType>
+  <SourceDataset dataSource="nbc_cdr" var="a">
+    <RestrictTo> { ?a a &lt;http://dbpedia.org/ontology/Agent&gt; } . </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="nbc_ggc" var="b">
+    <RestrictTo> { ?b a &lt;http://dbpedia.org/ontology/Person&gt; } . </RestrictTo>
+  </TargetDataset>
+  <LinkageRule>
+    <Compare id="unnamed_5" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+      <TransformInput id="unnamed_2" function="lowerCase">
+        <Input id="unnamed_1" path="?a/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;"/>
+      </TransformInput>
+      <TransformInput id="unnamed_4" function="lowerCase">
+        <Input id="unnamed_3" path="?b/&lt;http://purl.org/dc/terms/title&gt;"/>
+      </TransformInput>
+    </Compare>
+  </LinkageRule>
+  <Filter/>
+  <Outputs> </Outputs>
+</Interlink>

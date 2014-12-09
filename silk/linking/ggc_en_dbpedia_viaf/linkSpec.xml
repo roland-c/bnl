@@ -1,0 +1,17 @@
+<Interlink id="ggc_en_dbpedia_viaf">
+  <LinkType>&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</LinkType>
+  <SourceDataset dataSource="nbc_ggc" var="a">
+    <RestrictTo> { ?a a &lt;http://dbpedia.org/ontology/Person&gt; . ?a &lt;http://dbpedia.org/ontology/viafId&gt; ?id} . </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="en_dbpedia" var="b">
+    <RestrictTo> { ?b a &lt;http://dbpedia.org/ontology/Person&gt; . ?b &lt;http://dbpedia.org/ontology/viafId&gt; ?id2} . </RestrictTo>
+  </TargetDataset>
+  <LinkageRule>
+    <Compare id="unnamed_3" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+      <Input id="unnamed_2" path="?b/&lt;http://dbpedia.org/ontology/viafId&gt;"/>
+      <Input id="unnamed_4" path="?a/&lt;http://dbpedia.org/ontology/viafId&gt;"/>
+    </Compare>
+  </LinkageRule>
+  <Filter unambiguous="false"/>
+  <Outputs> </Outputs>
+</Interlink>

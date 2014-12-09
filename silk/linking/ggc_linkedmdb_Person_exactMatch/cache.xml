@@ -1,0 +1,45 @@
+<Cache>
+  <EntityDescriptions>
+    <Source>
+      <EntityDescription>
+        <Variable>a</Variable>
+        <Restrictions>{ ?a a &lt;http://dbpedia.org/ontology/Person&gt; } .</Restrictions>
+        <Paths>
+          <Path>?a/&lt;http://data.bibliotheek.nl/ns/nbc/ggc#pp028A_d&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/ns/nbc/ggc#pp028A_a&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</Path>
+          <Path>?a/&lt;http://purl.org/dc/terms/description&gt;</Path>
+          <Path>?a/&lt;http://xmlns.com/foaf/0.1/name&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/2004/02/skos/core#inScheme&gt;</Path>
+          <Path>?a\&lt;http://purl.org/dc/terms/creator&gt;</Path>
+          <Path>?a\&lt;http://schema.org/actor&gt;</Path>
+          <Path>?a\&lt;http://purl.org/dc/terms/contributor&gt;</Path>
+          <Path>?a\&lt;http://schema.org/director&gt;</Path>
+          <Path>?a\&lt;http://purl.org/dc/terms/subject&gt;</Path>
+          <Path>?a\&lt;http://purl.org/dc/terms/publisher&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Source>
+    <Target>
+      <EntityDescription>
+        <Variable>b</Variable>
+        <Restrictions>{ ?b a &lt;http://xmlns.com/foaf/0.1/Person&gt; } .</Restrictions>
+        <Paths>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/actor_name&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/director_name&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_crewmember_name&gt;</Path>
+          <Path>?b/&lt;http://data.bibliotheek.nl/ns/nbc/ggc#pp028A_a&gt;</Path>
+          <Path>?b/&lt;http://xmlns.com/foaf/0.1/page&gt;</Path>
+          <Path>?b/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</Path>
+          <Path>?b/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/director_directorid&gt;</Path>
+          <Path>?b/&lt;http://xmlns.com/foaf/0.1/made&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_crewmember_film_crewmemberid&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Target>
+  </EntityDescriptions>
+  <PositiveEntities> </PositiveEntities>
+  <NegativeEntities> </NegativeEntities>
+</Cache>

@@ -1,0 +1,4 @@
+<Output id="de_nta_link" type="file">
+  <Param name="file" value="//home/roland/Documents/metamatter/bieb/kennisbank/links/de_nta_link.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

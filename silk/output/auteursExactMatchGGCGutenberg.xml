@@ -1,0 +1,4 @@
+<Output id="auteursExactMatchGGCGutenberg" type="file">
+  <Param name="file" value="/home/roland/Documents/metamatter/bieb/kennisbank/links/auteursExactMatch.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

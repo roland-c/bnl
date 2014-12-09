@@ -1,0 +1,21 @@
+<Interlink id="eBooksExact">
+  <LinkType>&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</LinkType>
+  <SourceDataset dataSource="nbc_gutenberg" var="a">
+    <RestrictTo> { ?a a &lt;http://www.gutenberg.org/2009/pgterms/ebook&gt; } . </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="nbc_ggc" var="b">
+    <RestrictTo> { ?b a &lt;http://dbpedia.org/ontology/Book&gt; } . </RestrictTo>
+  </TargetDataset>
+  <LinkageRule>
+    <Compare id="unnamed_5" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+      <TransformInput id="unnamed_3" function="lowerCase">
+        <Input id="unnamed_1" path="?a/&lt;http://purl.org/dc/terms/title&gt;"/>
+      </TransformInput>
+      <TransformInput id="unnamed_4" function="lowerCase">
+        <Input id="unnamed_2" path="?b/&lt;http://purl.org/dc/terms/title&gt;"/>
+      </TransformInput>
+    </Compare>
+  </LinkageRule>
+  <Filter unambiguous="false"/>
+  <Outputs> </Outputs>
+</Interlink>

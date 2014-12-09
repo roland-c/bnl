@@ -1,0 +1,4 @@
+<Output id="auteursJaroWinklerGGCGUtenberg" type="file">
+  <Param name="file" value="/home/roland/Documents/metamatter/bieb/kennisbank/links/auteursJaroWinkler.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

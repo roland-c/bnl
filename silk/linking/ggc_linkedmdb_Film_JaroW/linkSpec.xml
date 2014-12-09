@@ -1,0 +1,23 @@
+<Interlink id="ggc_linkedmdb_Film_JaroW">
+  <LinkType>&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</LinkType>
+  <SourceDataset dataSource="nbc_ggc" var="a">
+    <RestrictTo> { ?a a &lt;http://dbpedia.org/ontology/Film&gt; } . </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="Linkedmdb" var="b">
+    <RestrictTo> { ?b a &lt;http://data.linkedmdb.org/resource/movie/film&gt; } . </RestrictTo>
+  </TargetDataset>
+  <LinkageRule>
+    <Compare id="unnamed_5" required="false" weight="1" metric="levenshteinDistance" threshold="0.1" indexing="true">
+      <TransformInput id="unnamed_3" function="lowerCase">
+        <Input id="unnamed_1" path="?a/&lt;http://purl.org/dc/terms/title&gt;"/>
+      </TransformInput>
+      <TransformInput id="unnamed_4" function="lowerCase">
+        <Input id="unnamed_2" path="?b/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;"/>
+      </TransformInput>
+      <Param name="minChar" value="0"/>
+      <Param name="maxChar" value="z"/>
+    </Compare>
+  </LinkageRule>
+  <Filter/>
+  <Outputs> </Outputs>
+</Interlink>

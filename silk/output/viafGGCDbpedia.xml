@@ -1,0 +1,4 @@
+<Output id="viafGGCDbpedia" type="file">
+  <Param name="file" value="/home/roland/Documents/metamatter/bieb/kennisbank/links/viafGGCDbpedia.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

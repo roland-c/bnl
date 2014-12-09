@@ -1,0 +1,4 @@
+<Output id="ebooksExact" type="file">
+  <Param name="file" value="/home/roland/Documents/metamatter/bieb/kennisbank/links/ebooksExact.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

@@ -1,0 +1,4 @@
+<Output id="cdrGGCAgentExact" type="file">
+  <Param name="file" value="//home/roland/Documents/metamatter/bieb/kennisbank/links/cdrGGCAgentExact.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

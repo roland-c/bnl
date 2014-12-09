@@ -1,0 +1,4 @@
+<Output id="cdrGGCPersonExact" type="file">
+  <Param name="file" value="//home/roland/Documents/metamatter/bieb/kennisbank/links/cdrGGCPersonExact.nt"/>
+  <Param name="format" value="ntriples"/>
+</Output>

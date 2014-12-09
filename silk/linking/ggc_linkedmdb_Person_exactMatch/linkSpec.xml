@@ -1,0 +1,33 @@
+<Interlink id="ggc_linkedmdb_Person_exactMatch">
+  <LinkType>&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</LinkType>
+  <SourceDataset dataSource="nbc_ggc" var="a">
+    <RestrictTo> { ?a a &lt;http://dbpedia.org/ontology/Person&gt; } . </RestrictTo>
+  </SourceDataset>
+  <TargetDataset dataSource="Linkedmdb" var="b">
+    <RestrictTo> { ?b a &lt;http://xmlns.com/foaf/0.1/Person&gt; } . </RestrictTo>
+  </TargetDataset>
+  <LinkageRule>
+    <Compare id="unnamed_9" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+      <TransformInput id="unnamed_7" function="lowerCase">
+        <TransformInput id="unnamed_6" function="concat">
+          <Input id="unnamed_4" path="?a/&lt;http://data.bibliotheek.nl/ns/nbc/ggc#pp028A_d&gt;"/>
+          <Input id="unnamed_5" path="?a/&lt;http://data.bibliotheek.nl/ns/nbc/ggc#pp028A_a&gt;"/>
+          <Param name="glue" value=" "/>
+        </TransformInput>
+      </TransformInput>
+      <TransformInput id="unnamed_17" function="merge">
+        <TransformInput id="unnamed_8" function="lowerCase">
+          <Input id="unnamed_3" path="?b/&lt;http://data.linkedmdb.org/resource/movie/actor_name&gt;"/>
+        </TransformInput>
+        <TransformInput id="unnamed_11" function="lowerCase">
+          <Input id="unnamed_13" path="?b/&lt;http://data.linkedmdb.org/resource/movie/director_name&gt;"/>
+        </TransformInput>
+        <TransformInput id="unnamed_15" function="lowerCase">
+          <Input id="unnamed_14" path="?b/&lt;http://data.linkedmdb.org/resource/movie/film_crewmember_name&gt;"/>
+        </TransformInput>
+      </TransformInput>
+    </Compare>
+  </LinkageRule>
+  <Filter/>
+  <Outputs> </Outputs>
+</Interlink>

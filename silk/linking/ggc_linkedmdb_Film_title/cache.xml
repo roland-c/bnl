@@ -1,0 +1,70 @@
+<Cache>
+  <EntityDescriptions>
+    <Source>
+      <EntityDescription>
+        <Variable>a</Variable>
+        <Restrictions>{ ?a a &lt;http://dbpedia.org/ontology/Film&gt; } .</Restrictions>
+        <Paths>
+          <Path>?a/&lt;http://purl.org/dc/terms/title&gt;</Path>
+          <Path>?a/&lt;http://purl.org/dc/terms/isReferencedBy&gt;</Path>
+          <Path>?a/&lt;http://schema.org/actor&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/gids/genre&gt;</Path>
+          <Path>?a/&lt;http://purl.org/dc/terms/description&gt;</Path>
+          <Path>?a/&lt;http://schema.org/duration&gt;</Path>
+          <Path>?a/&lt;http://schema.org/director&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/beoordeling&gt;</Path>
+          <Path>?a/&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/keyword&gt;</Path>
+          <Path>?a/&lt;http://purl.org/dc/terms/issued&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/ns/beoordeling&gt;</Path>
+          <Path>?a/&lt;http://data.bibliotheek.nl/ns/keyword&gt;</Path>
+          <Path>?a\&lt;http://purl.org/dc/terms/references&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Source>
+    <Target>
+      <EntityDescription>
+        <Variable>b</Variable>
+        <Restrictions>{ ?b a &lt;http://data.linkedmdb.org/resource/movie/film&gt; } .</Restrictions>
+        <Paths>
+          <Path>?b/&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;</Path>
+          <Path>?b/&lt;http://xmlns.com/foaf/0.1/page&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/filmid&gt;</Path>
+          <Path>?b/&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;</Path>
+          <Path>?b/&lt;http://purl.org/dc/terms/title&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/initial_release_date&gt;</Path>
+          <Path>?b/&lt;http://purl.org/dc/terms/date&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/director&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/actor&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/performance&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/producer&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/writer&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/music_contributor&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/editor&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/sequel&gt;</Path>
+          <Path>?b/&lt;http://xmlns.com/foaf/0.1/based_near&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/country&gt;</Path>
+          <Path>?b/&lt;http://www.w3.org/2004/02/skos/core#subject&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_subject&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/featured_film_location&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_cut&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/prequel&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/language&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/runtime&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/production_company&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/genre&gt;</Path>
+          <Path>?b/&lt;http://www.w3.org/2002/07/owl#sameAs&gt;</Path>
+          <Path>?b/&lt;http://dbpedia.org/property/hasPhotoCollection&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/cinematographer&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/story_contributor&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_story_contributor&gt;</Path>
+          <Path>?b/&lt;http://data.linkedmdb.org/resource/movie/film_format&gt;</Path>
+        </Paths>
+      </EntityDescription>
+    </Target>
+  </EntityDescriptions>
+  <PositiveEntities> </PositiveEntities>
+  <NegativeEntities> </NegativeEntities>
+</Cache>

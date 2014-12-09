@@ -1,0 +1,9 @@
+<ProjectConfig>
+  <Prefixes>
+    <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix id="dbpo" namespace="http://dbpedia/org/ontology/"/>
+    <Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+    <Prefix id="skos" namespace="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+  </Prefixes>
+</ProjectConfig>
