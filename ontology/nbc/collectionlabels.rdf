@@ -1,0 +1,57 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="urn:nbc:source:webggc.oclc.nl">
+    <rdfs:label xml:lang="nl">Catalogus</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:dsdp-ihlia">
+    <!-- obsolete 'soon' -->
+    <rdfs:label xml:lang="nl">IHLIA</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:ihlia">
+    <rdfs:label xml:lang="nl">IHLIA</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:krantenbank">
+    <rdfs:label xml:lang="nl">Krantenbank</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:winklerprins">
+    <rdfs:label xml:lang="nl">Winkler Prins</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:gutenberg">
+    <rdfs:label xml:lang="nl">Gutenberg</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:gids">
+    <rdfs:label xml:lang="nl">Gids</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:consumentenbond">
+    <rdfs:label xml:lang="nl">Consumentenbond</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:literatuurplein">
+    <rdfs:label xml:lang="nl">Literatuurplein</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:dsdp-uitburo">
+    <!-- obsolete 'soon' -->
+    <rdfs:label xml:lang="nl">Amsterdams Uitburo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:uitburo">
+    <rdfs:label xml:lang="nl">Uitburo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:dcr">
+    <rdfs:label xml:lang="nl">Bibliotheek.nl</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:nbc:source:cdr">
+    <rdfs:label xml:lang="nl">Muziekwebplein</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>

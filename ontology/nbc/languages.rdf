@@ -1,0 +1,1944 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:aar">
+    <rdfs:label xml:lang="nl">Afar</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:abk">
+    <rdfs:label xml:lang="nl">Abchazisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ace">
+    <rdfs:label xml:lang="nl">Atjees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ach">
+    <rdfs:label xml:lang="nl">Akoli</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ada">
+    <rdfs:label xml:lang="nl">Adangme</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ady">
+    <rdfs:label xml:lang="nl">Adyghe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:afa">
+    <rdfs:label xml:lang="nl">Afro-Aziatische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:afh">
+    <rdfs:label xml:lang="nl">Afrihili</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:afr">
+    <rdfs:label xml:lang="nl">Afrikaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ain">
+    <rdfs:label xml:lang="nl">Ainu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:aka">
+    <rdfs:label xml:lang="nl">Akan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:akk">
+    <rdfs:label xml:lang="nl">Akkadisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:alb">
+    <rdfs:label xml:lang="nl">Albanees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ale">
+    <rdfs:label xml:lang="nl">Aleut</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:alg">
+    <rdfs:label xml:lang="nl">Algonkium-talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:alt">
+    <rdfs:label xml:lang="nl">Zuid-Altaïsch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:amh">
+    <rdfs:label xml:lang="nl">Amhaars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ang">
+    <rdfs:label xml:lang="nl">Engels</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:anp">
+    <rdfs:label xml:lang="nl">Angika</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:apa">
+    <rdfs:label xml:lang="nl">Apachetalen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ara">
+    <rdfs:label xml:lang="nl">Arabisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arc">
+    <rdfs:label xml:lang="nl">Aramees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arg">
+    <rdfs:label xml:lang="nl">Aragonees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arm">
+    <rdfs:label xml:lang="nl">Armeens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arn">
+    <rdfs:label xml:lang="nl">Araukaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arp">
+    <rdfs:label xml:lang="nl">Arapaho</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:art">
+    <rdfs:label xml:lang="nl">Kunstmatige talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:arw">
+    <rdfs:label xml:lang="nl">Arawak</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:asm">
+    <rdfs:label xml:lang="nl">Assamitisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ast">
+    <rdfs:label xml:lang="nl">Asturisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ath">
+    <rdfs:label xml:lang="nl">Athapascaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:aus">
+    <rdfs:label xml:lang="nl">Australische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ava">
+    <rdfs:label xml:lang="nl">Avarisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ave">
+    <rdfs:label xml:lang="nl">Avestisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:awa">
+    <rdfs:label xml:lang="nl">Awadhi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:aym">
+    <rdfs:label xml:lang="nl">Aymara</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:aze">
+    <rdfs:label xml:lang="nl">Azerbeidzjaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bad">
+    <rdfs:label xml:lang="nl">Bandatalen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bai">
+    <rdfs:label xml:lang="nl">Bamileke</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bak">
+    <rdfs:label xml:lang="nl">Basjkiers</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bal">
+    <rdfs:label xml:lang="nl">Beloetsji</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bam">
+    <rdfs:label xml:lang="nl">Bamanankan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ban">
+    <rdfs:label xml:lang="nl">Basa Bali</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:baq">
+    <rdfs:label xml:lang="nl">Baskisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bas">
+    <rdfs:label xml:lang="nl">Basa sunda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bat">
+    <rdfs:label xml:lang="nl">Baltische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bej">
+    <rdfs:label xml:lang="nl">Bedawiyet</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bel">
+    <rdfs:label xml:lang="nl">Witrussisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bem">
+    <rdfs:label xml:lang="nl">Bemba</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ben">
+    <rdfs:label xml:lang="nl">Bengaals</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ber">
+    <rdfs:label xml:lang="nl">Berber</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bho">
+    <rdfs:label xml:lang="nl">Bhojpuri</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bih">
+    <rdfs:label xml:lang="nl">Bihari</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bik">
+    <rdfs:label xml:lang="nl">Bikol</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bin">
+    <rdfs:label xml:lang="nl">Edo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bis">
+    <rdfs:label xml:lang="nl">Bislama</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bla">
+    <rdfs:label xml:lang="nl">Siksika</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bnt">
+    <rdfs:label xml:lang="nl">Bantoe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bos">
+    <rdfs:label xml:lang="nl">Bosnisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bra">
+    <rdfs:label xml:lang="nl">Braj</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bre">
+    <rdfs:label xml:lang="nl">Bretons</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:btk">
+    <rdfs:label xml:lang="nl">Bataks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bua">
+    <rdfs:label xml:lang="nl">Buriat</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bug">
+    <rdfs:label xml:lang="nl">Buginees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bul">
+    <rdfs:label xml:lang="nl">Bulgaars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:bur">
+    <rdfs:label xml:lang="nl">Birmaans; Birmees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:byn">
+    <rdfs:label xml:lang="nl">Bilin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cad">
+    <rdfs:label xml:lang="nl">Caddo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cai">
+    <rdfs:label xml:lang="nl">Midden-Amerikaanse Indiaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:car">
+    <rdfs:label xml:lang="nl">Caribische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cat">
+    <rdfs:label xml:lang="nl">Valenciaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cau">
+    <rdfs:label xml:lang="nl">Kaukasische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ceb">
+    <rdfs:label xml:lang="nl">Cebuano</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cel">
+    <rdfs:label xml:lang="nl">Keltische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cze">
+    <rdfs:label xml:lang="nl">Tsjechisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cha">
+    <rdfs:label xml:lang="nl">Chamorro</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chb">
+    <rdfs:label xml:lang="nl">Chibcha</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:che">
+    <rdfs:label xml:lang="nl">Tsjetsjeens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chg">
+    <rdfs:label xml:lang="nl">Chagtai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chi">
+    <rdfs:label xml:lang="nl">Chinees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chk">
+    <rdfs:label xml:lang="nl">Chuukees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chm">
+    <rdfs:label xml:lang="nl">Mari</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chn">
+    <rdfs:label xml:lang="nl">Chinook jargon</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cho">
+    <rdfs:label xml:lang="nl">Choctaw</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chp">
+    <rdfs:label xml:lang="nl">Chipewyan; Dene Suline</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chr">
+    <rdfs:label xml:lang="nl">Cherokee</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chu">
+    <rdfs:label xml:lang="nl">Oudkerkslavisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chv">
+    <rdfs:label xml:lang="nl">Tsjoevasjisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:chy">
+    <rdfs:label xml:lang="nl">Cheyenne</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cmc">
+    <rdfs:label xml:lang="nl">Chamische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cop">
+    <rdfs:label xml:lang="nl">Koptisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cor">
+    <rdfs:label xml:lang="nl">Cornisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cos">
+    <rdfs:label xml:lang="nl">Corsicaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cpe">
+    <rdfs:label xml:lang="nl">Creools en Pidgin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cpf">
+    <rdfs:label xml:lang="nl">Creools en Pidgin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cpp">
+    <rdfs:label xml:lang="nl">Creools en Pidgin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cre">
+    <rdfs:label xml:lang="nl">Cree</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:crh">
+    <rdfs:label xml:lang="nl">Krim-Tataars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:crp">
+    <rdfs:label xml:lang="nl">Pidgin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:csb">
+    <rdfs:label xml:lang="nl">Kasjoebisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:cus">
+    <rdfs:label xml:lang="nl">Koesjitische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dak">
+    <rdfs:label xml:lang="nl">Dakota</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dan">
+    <rdfs:label xml:lang="nl">Deens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dar">
+    <rdfs:label xml:lang="nl">Dargwa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:day">
+    <rdfs:label xml:lang="nl">Dajak</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:del">
+    <rdfs:label xml:lang="nl">Delaware</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:den">
+    <rdfs:label xml:lang="nl">Athapascan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dgr">
+    <rdfs:label xml:lang="nl">Dogrib</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:din">
+    <rdfs:label xml:lang="nl">Dinka</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:div">
+    <rdfs:label xml:lang="nl">Maledivisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:doi">
+    <rdfs:label xml:lang="nl">Dogri</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dra">
+    <rdfs:label xml:lang="nl">Dravidische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dsb">
+    <rdfs:label xml:lang="nl">Nedersorbisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dua">
+    <rdfs:label xml:lang="nl">Duala</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dum">
+    <rdfs:label xml:lang="nl">Middelnederlands</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dut">
+    <rdfs:label xml:lang="nl">Nederlands</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dyu">
+    <rdfs:label xml:lang="nl">Dyula</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:dzo">
+    <rdfs:label xml:lang="nl">Dzongkha</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:efi">
+    <rdfs:label xml:lang="nl">Efik</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:egy">
+    <rdfs:label xml:lang="nl">Egyptisch (klassiek)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:eka">
+    <rdfs:label xml:lang="nl">Ekajuk</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:elx">
+    <rdfs:label xml:lang="nl">Elamitisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:eng">
+    <rdfs:label xml:lang="nl">Engels</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:enm">
+    <rdfs:label xml:lang="nl">Engels</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:epo">
+    <rdfs:label xml:lang="nl">Esperanto</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:est">
+    <rdfs:label xml:lang="nl">Estlands</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ewe">
+    <rdfs:label xml:lang="nl">Ewe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ewo">
+    <rdfs:label xml:lang="nl">Ewondo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fan">
+    <rdfs:label xml:lang="nl">Fang</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fao">
+    <rdfs:label xml:lang="nl">Faeröers</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fat">
+    <rdfs:label xml:lang="nl">Fante</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fij">
+    <rdfs:label xml:lang="nl">Fijisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fil">
+    <rdfs:label xml:lang="nl">Filipijns</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fin">
+    <rdfs:label xml:lang="nl">Fins</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fiu">
+    <rdfs:label xml:lang="nl">Fins-Oegrische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fon">
+    <rdfs:label xml:lang="nl">Fon</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fre">
+    <rdfs:label xml:lang="nl">Frans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:frm">
+    <rdfs:label xml:lang="nl">Frans, Midden</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fro">
+    <rdfs:label xml:lang="nl">Franse, Oud</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:frr">
+    <rdfs:label xml:lang="nl">Noord-Fries</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:frs">
+    <rdfs:label xml:lang="nl">Oost-Fries</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fry">
+    <rdfs:label xml:lang="nl">Westerlauwers Fries</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ful">
+    <rdfs:label xml:lang="nl">Fulah</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:fur">
+    <rdfs:label xml:lang="nl">Friulisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gaa">
+    <rdfs:label xml:lang="nl">Ga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gay">
+    <rdfs:label xml:lang="nl">Gayo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gba">
+    <rdfs:label xml:lang="nl">Gbaya</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gem">
+    <rdfs:label xml:lang="nl">Germaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:geo">
+    <rdfs:label xml:lang="nl">Georgisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ger">
+    <rdfs:label xml:lang="nl">Duits</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gez">
+    <rdfs:label xml:lang="nl">Ge'ez</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gil">
+    <rdfs:label xml:lang="nl">Gilbertees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gla">
+    <rdfs:label xml:lang="nl">Iers, Schots Iers</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gle">
+    <rdfs:label xml:lang="nl">Iers</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:glg">
+    <rdfs:label xml:lang="nl">Galicisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:glv">
+    <rdfs:label xml:lang="nl">Manx</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gmh">
+    <rdfs:label xml:lang="nl">Duits, Midden Hoog</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:goh">
+    <rdfs:label xml:lang="nl">Duits, Oud Hoog</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gon">
+    <rdfs:label xml:lang="nl">Gondi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gor">
+    <rdfs:label xml:lang="nl">Gorontalo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:got">
+    <rdfs:label xml:lang="nl">Gotisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:grb">
+    <rdfs:label xml:lang="nl">Grebo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:grc">
+    <rdfs:label xml:lang="nl">Grieks, Oud</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gre">
+    <rdfs:label xml:lang="nl">Grieks, Modern</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:grn">
+    <rdfs:label xml:lang="nl">Guaraní</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gsw">
+    <rdfs:label xml:lang="nl">Zwitserduits</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:guj">
+    <rdfs:label xml:lang="nl">Gujarati</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:gwi">
+    <rdfs:label xml:lang="nl">Gwich’in</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hai">
+    <rdfs:label xml:lang="nl">Haida</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hat">
+    <rdfs:label xml:lang="nl">Haïtiaans Creools</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hau">
+    <rdfs:label xml:lang="nl">Hausa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:haw">
+    <rdfs:label xml:lang="nl">Hawaïaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:heb">
+    <rdfs:label xml:lang="nl">Hebreeuws</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:her">
+    <rdfs:label xml:lang="nl">Herero</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hil">
+    <rdfs:label xml:lang="nl">Hiligaynon</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:him">
+    <rdfs:label xml:lang="nl">Himachali</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hin">
+    <rdfs:label xml:lang="nl">Hindi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hit">
+    <rdfs:label xml:lang="nl">Hettitisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hmn">
+    <rdfs:label xml:lang="nl">Hmong</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hmo">
+    <rdfs:label xml:lang="nl">Hiri Motu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hrv">
+    <rdfs:label xml:lang="nl">Kroatisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hsb">
+    <rdfs:label xml:lang="nl">Oppersorbisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hun">
+    <rdfs:label xml:lang="nl">Hongaars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:hup">
+    <rdfs:label xml:lang="nl">Hupa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:iba">
+    <rdfs:label xml:lang="nl">Iban</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ibo">
+    <rdfs:label xml:lang="nl">Igbo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ice">
+    <rdfs:label xml:lang="nl">IJslands</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ido">
+    <rdfs:label xml:lang="nl">Ido</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:iii">
+    <rdfs:label xml:lang="nl">Sichuan Yi; Nuosu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ijo">
+    <rdfs:label xml:lang="nl">IJO talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:iku">
+    <rdfs:label xml:lang="nl">Inuktitut</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ile">
+    <rdfs:label xml:lang="nl">Interlingue; Occidental</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ilo">
+    <rdfs:label xml:lang="nl">Iloko</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ina">
+    <rdfs:label xml:lang="nl">Interlingua (de Internationale HulpVereniging van de Taal)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:inc">
+    <rdfs:label xml:lang="nl">Indische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ind">
+    <rdfs:label xml:lang="nl">Indonesisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ine">
+    <rdfs:label xml:lang="nl">Indo-Europese talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:inh">
+    <rdfs:label xml:lang="nl">Ingoesj</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ipk">
+    <rdfs:label xml:lang="nl">Inupiaq</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ira">
+    <rdfs:label xml:lang="nl">Iraanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:iro">
+    <rdfs:label xml:lang="nl">Irokese talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ita">
+    <rdfs:label xml:lang="nl">Italiaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:jav">
+    <rdfs:label xml:lang="nl">Javaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:jbo">
+    <rdfs:label xml:lang="nl">Lojban</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:jpn">
+    <rdfs:label xml:lang="nl">Japans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:jpr">
+    <rdfs:label xml:lang="nl">Judeo-Perzisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:jrb">
+    <rdfs:label xml:lang="nl">Judeo-Arabisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kaa">
+    <rdfs:label xml:lang="nl">Karakalpaks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kab">
+    <rdfs:label xml:lang="nl">Kabyle</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kac">
+    <rdfs:label xml:lang="nl">Kachin; Jingpho</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kal">
+    <rdfs:label xml:lang="nl">Kalaallisut; Groenlandse</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kam">
+    <rdfs:label xml:lang="nl">Kamba</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kan">
+    <rdfs:label xml:lang="nl">Kannada</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kar">
+    <rdfs:label xml:lang="nl">Karen talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kas">
+    <rdfs:label xml:lang="nl">Kasjmierisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kau">
+    <rdfs:label xml:lang="nl">Kanuri</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kaw">
+    <rdfs:label xml:lang="nl">Kawi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kaz">
+    <rdfs:label xml:lang="nl">Kazachs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kbd">
+    <rdfs:label xml:lang="nl">Kabardisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kha">
+    <rdfs:label xml:lang="nl">Khasi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:khi">
+    <rdfs:label xml:lang="nl">Khoisan talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:khm">
+    <rdfs:label xml:lang="nl">Centraal Khmer</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kho">
+    <rdfs:label xml:lang="nl">Khotanees; Sakan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kik">
+    <rdfs:label xml:lang="nl">Kikuyu; Gikuyu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kin">
+    <rdfs:label xml:lang="nl">Kinyarwanda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kir">
+    <rdfs:label xml:lang="nl">Kirgizisch; Kirgizstan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kmb">
+    <rdfs:label xml:lang="nl">Kimbundu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kok">
+    <rdfs:label xml:lang="nl">Konkani</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kom">
+    <rdfs:label xml:lang="nl">Komi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kon">
+    <rdfs:label xml:lang="nl">Kongo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kor">
+    <rdfs:label xml:lang="nl">Koreaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kos">
+    <rdfs:label xml:lang="nl">Kosraeaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kpe">
+    <rdfs:label xml:lang="nl">Kpelle</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:krc">
+    <rdfs:label xml:lang="nl">Karachay-balkar</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:krl">
+    <rdfs:label xml:lang="nl">Karelisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kro">
+    <rdfs:label xml:lang="nl">Kru talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kru">
+    <rdfs:label xml:lang="nl">Kurukh</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kua">
+    <rdfs:label xml:lang="nl">Kwanyama</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kum">
+    <rdfs:label xml:lang="nl">Kumyk</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kur">
+    <rdfs:label xml:lang="nl">Koerdisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:kut">
+    <rdfs:label xml:lang="nl">Kutenai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lad">
+    <rdfs:label xml:lang="nl">Ladino</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lah">
+    <rdfs:label xml:lang="nl">Lahnda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lam">
+    <rdfs:label xml:lang="nl">Lamba</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lao">
+    <rdfs:label xml:lang="nl">Lao</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lat">
+    <rdfs:label xml:lang="nl">Latijn</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lav">
+    <rdfs:label xml:lang="nl">Letlands; Lets</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lez">
+    <rdfs:label xml:lang="nl">Lezgisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lim">
+    <rdfs:label xml:lang="nl">Limburgs</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lin">
+    <rdfs:label xml:lang="nl">Lingala</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lit">
+    <rdfs:label xml:lang="nl">Litouws</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lol">
+    <rdfs:label xml:lang="nl">Mongo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:loz">
+    <rdfs:label xml:lang="nl">Lozi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ltz">
+    <rdfs:label xml:lang="nl">Luxemburgs; Letzeburgesch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lua">
+    <rdfs:label xml:lang="nl">Luba-Lulua</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lub">
+    <rdfs:label xml:lang="nl">Luba-Katanga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lug">
+    <rdfs:label xml:lang="nl">Ganda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lui">
+    <rdfs:label xml:lang="nl">Luiseno</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lun">
+    <rdfs:label xml:lang="nl">Lunda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:luo">
+    <rdfs:label xml:lang="nl">Luo (Kenia en Tanzania)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:lus">
+    <rdfs:label xml:lang="nl">Lushai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mac">
+    <rdfs:label xml:lang="nl">Macedonisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mad">
+    <rdfs:label xml:lang="nl">Madurees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mag">
+    <rdfs:label xml:lang="nl">Magahi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mah">
+    <rdfs:label xml:lang="nl">Marshallees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mai">
+    <rdfs:label xml:lang="nl">Maithili</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mak">
+    <rdfs:label xml:lang="nl">Makassaars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mal">
+    <rdfs:label xml:lang="nl">Malayalam</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:man">
+    <rdfs:label xml:lang="nl">Mandingo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mao">
+    <rdfs:label xml:lang="nl">Maori</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:map">
+    <rdfs:label xml:lang="nl">Austronesische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mar">
+    <rdfs:label xml:lang="nl">Marathi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mas">
+    <rdfs:label xml:lang="nl">Masai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:may">
+    <rdfs:label xml:lang="nl">Maleis</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mdf">
+    <rdfs:label xml:lang="nl">Moksha</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mdr">
+    <rdfs:label xml:lang="nl">Mandar</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:men">
+    <rdfs:label xml:lang="nl">Mende</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mga">
+    <rdfs:label xml:lang="nl">Iers, Midden (900-1200)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mic">
+    <rdfs:label xml:lang="nl">Mi\’kmaq; Micmac</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:min">
+    <rdfs:label xml:lang="nl">Minangkabau</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mis">
+    <rdfs:label xml:lang="nl">Niet gecodeerde talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mkh">
+    <rdfs:label xml:lang="nl">Mon-Khmer talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mlg">
+    <rdfs:label xml:lang="nl">Madagascars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mlt">
+    <rdfs:label xml:lang="nl">Maltees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mnc">
+    <rdfs:label xml:lang="nl">Mantsjoe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mni">
+    <rdfs:label xml:lang="nl">Manipoeri</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mno">
+    <rdfs:label xml:lang="nl">Manobo talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:moh">
+    <rdfs:label xml:lang="nl">Mohawk</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mon">
+    <rdfs:label xml:lang="nl">Mongools</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mos">
+    <rdfs:label xml:lang="nl">Mossi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mul">
+    <rdfs:label xml:lang="nl">Meerdere talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mun">
+    <rdfs:label xml:lang="nl">Munda talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mus">
+    <rdfs:label xml:lang="nl">Creek</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mwl">
+    <rdfs:label xml:lang="nl">Mirandees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:mwr">
+    <rdfs:label xml:lang="nl">Marwari</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:myn">
+    <rdfs:label xml:lang="nl">Maya talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:myv">
+    <rdfs:label xml:lang="nl">Erzya</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nah">
+    <rdfs:label xml:lang="nl">Nahuatl talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nai">
+    <rdfs:label xml:lang="nl">Noord-Amerikaans Indiaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nap">
+    <rdfs:label xml:lang="nl">Napolitaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nau">
+    <rdfs:label xml:lang="nl">Nauru</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nav">
+    <rdfs:label xml:lang="nl">Navajo; Navajo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nbl">
+    <rdfs:label xml:lang="nl">Ndebele, Zuid, Zuid-Ndebele</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nde">
+    <rdfs:label xml:lang="nl">Ndebele, Noord, Noord-Ndebele</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ndo">
+    <rdfs:label xml:lang="nl">Ndonga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nds">
+    <rdfs:label xml:lang="nl">Laag Duits; Laag Saksisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nep">
+    <rdfs:label xml:lang="nl">Nepalees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:new">
+    <rdfs:label xml:lang="nl">Newari</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nia">
+    <rdfs:label xml:lang="nl">Nias</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nic">
+    <rdfs:label xml:lang="nl">Niger-Kordofanisch (overige)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:niu">
+    <rdfs:label xml:lang="nl">Niueaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nno">
+    <rdfs:label xml:lang="nl">Noors Nynorsk; Nynorsk, Noors</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nob">
+    <rdfs:label xml:lang="nl">Bokmål, Noors, Noors Bokmål</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nog">
+    <rdfs:label xml:lang="nl">Nogai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:non">
+    <rdfs:label xml:lang="nl">Noors, oud-</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nor">
+    <rdfs:label xml:lang="nl">Noors</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nqo">
+    <rdfs:label xml:lang="nl">N\’Ko</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nso">
+    <rdfs:label xml:lang="nl">Pedi; Sepedi; Noord-Sothotisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nub">
+    <rdfs:label xml:lang="nl">Nubische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nwc">
+    <rdfs:label xml:lang="nl">Klassiek Nepal Bhasa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nya">
+    <rdfs:label xml:lang="nl">Chichewa; Chewa; Nyanja</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nym">
+    <rdfs:label xml:lang="nl">Nyamwezi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nyn">
+    <rdfs:label xml:lang="nl">Nyankole</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nyo">
+    <rdfs:label xml:lang="nl">Nyoro</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:nzi">
+    <rdfs:label xml:lang="nl">Nzima</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:oci">
+    <rdfs:label xml:lang="nl">Occitaans (na 1500)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:oji">
+    <rdfs:label xml:lang="nl">Ojibwa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ori">
+    <rdfs:label xml:lang="nl">Oriya</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:orm">
+    <rdfs:label xml:lang="nl">Oromo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:osa">
+    <rdfs:label xml:lang="nl">Osage</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:oss">
+    <rdfs:label xml:lang="nl">Ossetisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ota">
+    <rdfs:label xml:lang="nl">Turks, Ottomaans (1500-1928)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:oto">
+    <rdfs:label xml:lang="nl">Otomi-talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:paa">
+    <rdfs:label xml:lang="nl">Papoeaas (overige)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pag">
+    <rdfs:label xml:lang="nl">Pangasinan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pal">
+    <rdfs:label xml:lang="nl">Pahlavi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pam">
+    <rdfs:label xml:lang="nl">Pampanga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pan">
+    <rdfs:label xml:lang="nl">Punjabi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pap">
+    <rdfs:label xml:lang="nl">Papiaments</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pau">
+    <rdfs:label xml:lang="nl">Palaus</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:peo">
+    <rdfs:label xml:lang="nl">Perzisch, Oud (ca.600-400 BC)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:per">
+    <rdfs:label xml:lang="nl">Perzisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:phi">
+    <rdfs:label xml:lang="nl">Filipijns (overige)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:phn">
+    <rdfs:label xml:lang="nl">Foenicisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pli">
+    <rdfs:label xml:lang="nl">Pali</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pol">
+    <rdfs:label xml:lang="nl">Pools</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pon">
+    <rdfs:label xml:lang="nl">Pohnpeiaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:por">
+    <rdfs:label xml:lang="nl">Portugees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pra">
+    <rdfs:label xml:lang="nl">Prakrit talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pro">
+    <rdfs:label xml:lang="nl">Provençaals, Oud (tot 1500); Occitaans, Oud (tot 1500)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:pus">
+    <rdfs:label xml:lang="nl">Pashto</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:qaa">
+    <rdfs:label xml:lang="nl">Gereserveerd voor lokaal gebruik</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:que">
+    <rdfs:label xml:lang="nl">Quechua</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:raj">
+    <rdfs:label xml:lang="nl">Rajasthani</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rap">
+    <rdfs:label xml:lang="nl">Rapanui</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rar">
+    <rdfs:label xml:lang="nl">Rarotongan; Cookeilanden Maori</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:roa">
+    <rdfs:label xml:lang="nl">Romaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:roh">
+    <rdfs:label xml:lang="nl">Reto-Romaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rom">
+    <rdfs:label xml:lang="nl">Romani</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rum">
+    <rdfs:label xml:lang="nl">Roemeens, Moldavisch; Moldavisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:run">
+    <rdfs:label xml:lang="nl">Rundi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rup">
+    <rdfs:label xml:lang="nl">Aromaniaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:rus">
+    <rdfs:label xml:lang="nl">Russisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sad">
+    <rdfs:label xml:lang="nl">Sandawe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sag">
+    <rdfs:label xml:lang="nl">Sango</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sah">
+    <rdfs:label xml:lang="nl">Yakut</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sai">
+    <rdfs:label xml:lang="nl">Zuid-Amerikaanse Indiaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sal">
+    <rdfs:label xml:lang="nl">Salishan talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sam">
+    <rdfs:label xml:lang="nl">Samaritaans-Aramees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:san">
+    <rdfs:label xml:lang="nl">Sanskriet</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sas">
+    <rdfs:label xml:lang="nl">Sasak</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sat">
+    <rdfs:label xml:lang="nl">Santali</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:scn">
+    <rdfs:label xml:lang="nl">Siciliaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sco">
+    <rdfs:label xml:lang="nl">Scots</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sel">
+    <rdfs:label xml:lang="nl">Selkup</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sem">
+    <rdfs:label xml:lang="nl">Semitische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sga">
+    <rdfs:label xml:lang="nl">Iers, Oud (tot 900)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sgn">
+    <rdfs:label xml:lang="nl">Gebarentalen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:shn">
+    <rdfs:label xml:lang="nl">Shan</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sid">
+    <rdfs:label xml:lang="nl">Sidamo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sin">
+    <rdfs:label xml:lang="nl">Sinhala; Singalees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sio">
+    <rdfs:label xml:lang="nl">Siouaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sit">
+    <rdfs:label xml:lang="nl">Sino-Tibetaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sla">
+    <rdfs:label xml:lang="nl">Slavische talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:slo">
+    <rdfs:label xml:lang="nl">Slowaaks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:slv">
+    <rdfs:label xml:lang="nl">Sloveens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sma">
+    <rdfs:label xml:lang="nl">Zuid-Samisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sme">
+    <rdfs:label xml:lang="nl">Noord-Samisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:smi">
+    <rdfs:label xml:lang="nl">Sami-talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:smj">
+    <rdfs:label xml:lang="nl">Lule Sami</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:smn">
+    <rdfs:label xml:lang="nl">Inari Sami</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:smo">
+    <rdfs:label xml:lang="nl">Samoaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sms">
+    <rdfs:label xml:lang="nl">Skolt Sami</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sna">
+    <rdfs:label xml:lang="nl">Shona</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:snd">
+    <rdfs:label xml:lang="nl">Sindhi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:snk">
+    <rdfs:label xml:lang="nl">Soninke</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sog">
+    <rdfs:label xml:lang="nl">Sogdian</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:som">
+    <rdfs:label xml:lang="nl">Somalisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:son">
+    <rdfs:label xml:lang="nl">Songhai talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sot">
+    <rdfs:label xml:lang="nl">Sotho, Zuid</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:spa">
+    <rdfs:label xml:lang="nl">Spaans; Castiliaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:srd">
+    <rdfs:label xml:lang="nl">Sardisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:srn">
+    <rdfs:label xml:lang="nl">Sranantongo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:srp">
+    <rdfs:label xml:lang="nl">Servisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:srr">
+    <rdfs:label xml:lang="nl">Serer</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ssa">
+    <rdfs:label xml:lang="nl">Nilo-Saharaanse talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ssw">
+    <rdfs:label xml:lang="nl">Swati</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:suk">
+    <rdfs:label xml:lang="nl">Sukuma</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sun">
+    <rdfs:label xml:lang="nl">Soendanees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sus">
+    <rdfs:label xml:lang="nl">Soesoe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:sux">
+    <rdfs:label xml:lang="nl">Soemerisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:swa">
+    <rdfs:label xml:lang="nl">Swahili</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:swe">
+    <rdfs:label xml:lang="nl">Zweeds</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:syc">
+    <rdfs:label xml:lang="nl">Klassieke Syriac</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:syr">
+    <rdfs:label xml:lang="nl">Syriac</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tah">
+    <rdfs:label xml:lang="nl">Tahitian</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tai">
+    <rdfs:label xml:lang="nl">Tai talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tam">
+    <rdfs:label xml:lang="nl">Tamil</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tat">
+    <rdfs:label xml:lang="nl">Tataars</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tel">
+    <rdfs:label xml:lang="nl">Telugu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tem">
+    <rdfs:label xml:lang="nl">Timne</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ter">
+    <rdfs:label xml:lang="nl">Tereno</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tet">
+    <rdfs:label xml:lang="nl">Tetum</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tgk">
+    <rdfs:label xml:lang="nl">Tadzjieks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tgl">
+    <rdfs:label xml:lang="nl">Tagalog</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tha">
+    <rdfs:label xml:lang="nl">Thais</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tib">
+    <rdfs:label xml:lang="nl">Tibetaans</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tig">
+    <rdfs:label xml:lang="nl">Tigre</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tir">
+    <rdfs:label xml:lang="nl">Tigrinya</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tiv">
+    <rdfs:label xml:lang="nl">Tiv</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tkl">
+    <rdfs:label xml:lang="nl">Tokelau</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tlh">
+    <rdfs:label xml:lang="nl">Klingon; tlhIngan-Hol</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tli">
+    <rdfs:label xml:lang="nl">Tlingit</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tmh">
+    <rdfs:label xml:lang="nl">Tamashek</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tog">
+    <rdfs:label xml:lang="nl">Tonga (Nyasa)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ton">
+    <rdfs:label xml:lang="nl">(Tonga-eilanden)</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tpi">
+    <rdfs:label xml:lang="nl">Tok Pisin</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tsi">
+    <rdfs:label xml:lang="nl">Tsimshian</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tsn">
+    <rdfs:label xml:lang="nl">Tswana</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tso">
+    <rdfs:label xml:lang="nl">Tsonga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tuk">
+    <rdfs:label xml:lang="nl">Turkmeens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tum">
+    <rdfs:label xml:lang="nl">Toemboeka</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tup">
+    <rdfs:label xml:lang="nl">Tupi talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tur">
+    <rdfs:label xml:lang="nl">Turks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tut">
+    <rdfs:label xml:lang="nl">Altaïsche talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tvl">
+    <rdfs:label xml:lang="nl">Tuvalu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:twi">
+    <rdfs:label xml:lang="nl">Twi</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:tyv">
+    <rdfs:label xml:lang="nl">Tuvinisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:udm">
+    <rdfs:label xml:lang="nl">Udmurt</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:uga">
+    <rdfs:label xml:lang="nl">Oegaritisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:uig">
+    <rdfs:label xml:lang="nl">Oeigoers</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ukr">
+    <rdfs:label xml:lang="nl">Oekraïens</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:umb">
+    <rdfs:label xml:lang="nl">Umbundu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:und">
+    <rdfs:label xml:lang="nl">Onbepaald</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:urd">
+    <rdfs:label xml:lang="nl">Urdu</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:uzb">
+    <rdfs:label xml:lang="nl">Oezbeeks</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:vai">
+    <rdfs:label xml:lang="nl">Vai</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ven">
+    <rdfs:label xml:lang="nl">Venda</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:vie">
+    <rdfs:label xml:lang="nl">Vietnamees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:vol">
+    <rdfs:label xml:lang="nl">Volapük</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:vot">
+    <rdfs:label xml:lang="nl">Votisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wak">
+    <rdfs:label xml:lang="nl">Wakashtalen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wal">
+    <rdfs:label xml:lang="nl">Walamo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:war">
+    <rdfs:label xml:lang="nl">Waray</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:was">
+    <rdfs:label xml:lang="nl">Washo</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wel">
+    <rdfs:label xml:lang="nl">Welsh</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wen">
+    <rdfs:label xml:lang="nl">Sorbisch talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wln">
+    <rdfs:label xml:lang="nl">Wallonisch; Waals</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:wol">
+    <rdfs:label xml:lang="nl">Wolof</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:xal">
+    <rdfs:label xml:lang="nl">Kalmyk</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:xho">
+    <rdfs:label xml:lang="nl">Xhosa</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:yao">
+    <rdfs:label xml:lang="nl">Yao</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:yap">
+    <rdfs:label xml:lang="nl">Yapees</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:yid">
+    <rdfs:label xml:lang="nl">Jiddisch</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:yor">
+    <rdfs:label xml:lang="nl">Yoruba</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:ypk">
+    <rdfs:label xml:lang="nl">Yupik talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zap">
+    <rdfs:label xml:lang="nl">Zapotec</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zbl">
+    <rdfs:label xml:lang="nl">Blissymbolen; Blissymbolics; Bliss</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zen">
+    <rdfs:label xml:lang="nl">Zenaga</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zha">
+    <rdfs:label xml:lang="nl">Zhuang; Chuang</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:znd">
+    <rdfs:label xml:lang="nl">Zande talen</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zul">
+    <rdfs:label xml:lang="nl">Zulu; Zoeloe</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zun">
+    <rdfs:label xml:lang="nl">Zuni</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zxx">
+    <rdfs:label xml:lang="nl">Geen taalkundige inhoud; Niet van toepassing</rdfs:label>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="urn:iso:std:iso:639:-2:zza">
+    <rdfs:label xml:lang="nl">Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>
+

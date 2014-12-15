@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <!--
+        Original contents moved to data_bibliotheek_nl_classes.rdf because this filename became unclear in light of 'bnl_types.rdf'.
+
+        We keep this file in order to 'delete' the old triples for this context from Olwim (at startup of Kennisbank).
+    -->
+</rdf:RDF>

@@ -1,0 +1,1248 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY bibo "http://purl.org/ontology/bibo/" >
+    <!ENTITY dbpo "http://dbpedia.org/ontology/" >
+    <!ENTITY dbpr "http://dbpedia.org/resource/" >
+    <!ENTITY mo "http://purl.org/ontology/mo/" >
+    <!ENTITY event "http://purl.org/NET/c4dm/event.owl#" >
+]>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+    <rdf:Description rdf:about="&dbpo;Agent">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+<!-- http://data.bibliotheek.nl/ElectronischArtikel -->
+<!-- http://data.bibliotheek.nl/gutenberg/Audio_Book_computer-generated -->
+<!-- http://data.bibliotheek.nl/gutenberg/Audio_Book_human-read -->
+<!-- http://data.bibliotheek.nl/gutenberg/Data -->
+<!-- http://data.bibliotheek.nl/gutenberg/Music_recorded -->
+<!-- http://data.bibliotheek.nl/gutenberg/Other_recordings -->
+<!-- http://data.bibliotheek.nl/gutenberg/Pictures_moving -->
+<!-- http://data.bibliotheek.nl/winklerprins/Lemma -->
+    <rdf:Description rdf:about="&dbpo;AcademicJournal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Activity">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Actor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AdministrativeRegion">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AdultActor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Aircraft">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Airline">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Airport">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Album">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Ambassador">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AmericanFootballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AmericanFootballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AmericanFootballTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Amphibian">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AnatomicalStructure">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Animal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Arachnid">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Archaea">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Architect">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ArchitecturalStructure">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Arena">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Artery">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Artist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Artwork">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Asteroid">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Astronaut">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Athlete">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Atoll">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AustralianFootballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AustralianRulesFootballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AutoRacingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Automobile">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;AutomobileEngine">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Award">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Bacteria">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BadmintonPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Band">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BaseballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BaseballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BasketballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BasketballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BasketballTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Beverage">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BiologicalDatabase">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Biomolecule">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Bird">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BodyOfWater">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Bone">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Book">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BowlingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Boxer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BoxingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Brain">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Bridge">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BritishRoyalty">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BroadcastNetwork">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Broadcaster">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Building">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;BullFighter">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CanadianFootballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CanadianFootballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CanadianFootballTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Canal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cardinal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cave">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Celebrity">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CelestialBody">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Chancellor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChemicalCompound">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChemicalElement">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChemicalSubstance">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChessPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChristianBishop">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ChristianPatriarch">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Church">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;City">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cleric">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ClubMoss">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;College">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CollegeCoach">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Colour">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Comedian">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ComicBook">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ComicsCharacter">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ComicsCreator">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Company">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Congressman">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Conifer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Constellation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Continent">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Convention">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Country">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CricketLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cricketer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Criminal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Crustacean">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CurlingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Currency">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cycad">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;CyclingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Cyclist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Database">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Decoration">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Deputy">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Device">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Disease">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Drug">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;EducationalInstitution">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Election">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Embryology">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;EthnicGroup">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Eukaryote">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;EurovisionSongContestEntry">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Event">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Fern">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FictionalCharacter">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FieldHockeyLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FigureSkater">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Film">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FilmFestival">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Fish">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Flag">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FloweringPlant">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Food">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FootballMatch">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FormulaOneRacer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;FormulaOneRacing">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Fungus">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GaelicGamesPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Galaxy">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Game">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Gene">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GeneLocation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GeopoliticalOrganisation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Ginkgo">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GivenName">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Gnetophytes">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GolfLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GolfPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GovernmentAgency">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GovernmentType">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Governor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GrandPrix">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Grape">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GreenAlga">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;GridironFootballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HandballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HistoricBuilding">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HistoricPlace">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HockeyTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Holiday">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Hospital">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Hotel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HumanGene">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;HumanGeneLocation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;IceHockeyLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;IceHockeyPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Ideology">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Infrastructure">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;InlineHockeyLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Insect">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Instrument">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Island">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Journalist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Judge">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;LacrosseLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Lake">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Language">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;LaunchPad">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;LawFirm">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;LegalCase">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Legislature">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Letter">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Library">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Lieutenant">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Lighthouse">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Locomotive">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;LunarCrater">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Lymph">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Magazine">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Mammal">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MartialArtist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Mayor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MeanOfTransportation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MemberOfParliament">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MilitaryConflict">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MilitaryPerson">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MilitaryUnit">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Mineral">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MixedMartialArtsEvent">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MixedMartialArtsLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Model">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Mollusca">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Monarch">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Monument">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Moss">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MotorcycleRacingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Mountain">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MountainPass">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MountainRange">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MouseGene">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MouseGeneLocation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Muscle">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Museum">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MusicFestival">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MusicGenre">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Musical">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MusicalArtist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;MusicalWork">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Name">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;NascarDriver">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;NationalCollegiateAthleticAssociationAthlete">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;NationalSoccerClub">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;NaturalPlace">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Nerve">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Newspaper">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Non-ProfitOrganisation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;OfficeHolder">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;OlympicResult">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Olympics">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Organisation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;OrganisationMember">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PaintballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Painting">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Park">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PeriodicalLiterature">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Person">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PersonFunction">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Philosopher">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Place">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Planet">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Plant">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Play">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PlayboyPlaymate">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PokerPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PolishKing">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PoliticalParty">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Politician">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PoloLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Pope">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PopulatedPlace">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PowerStation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;President">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Priest">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PrimeMinister">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ProgrammingLanguage">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Project">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ProtectedArea">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Protein">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;PublicTransitSystem">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Race">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RadioControlledRacingLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RadioStation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RailwayLine">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RailwayTunnel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RecordLabel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Referee">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ReligiousBuilding">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Reptile">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ResearchProject">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Restaurant">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;River">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Road">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RoadJunction">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RoadTunnel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Rocket">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RouteOfTransportation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Royalty">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RugbyClub">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RugbyLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;RugbyPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Saint">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Sales">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SambaSchool">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;School">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Scientist">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Sculpture">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Senator">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Settlement">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Ship">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;ShoppingMall">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Single">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SiteOfSpecialScientificInterest">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SkiArea">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Skyscraper">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SnookerChamp">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SnookerPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SnookerWorldRanking">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerClub">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerClubSeason">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerLeagueSeason">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerManager">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoccerTournament">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SoftballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Software">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Song">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SpaceMission">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SpaceShuttle">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SpaceStation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Spacecraft">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Species">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SpeedwayLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SpeedwayTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Sport">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SportsEvent">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SportsLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SportsTeam">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SportsTeamMember">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SportsTeamSeason">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Stadium">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Station">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Stream">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;SupremeCourtOfTheUnitedStatesCase">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Surname">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Swimmer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Tax">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TeamMember">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TelevisionEpisode">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TelevisionSeason">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TelevisionShow">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TelevisionStation">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TennisLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TennisPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TennisTournament">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Theatre">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TopicalConcept">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Town">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;TradeUnion">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Tunnel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;University">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Unknown">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Valley">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Vein">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VicePresident">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VicePrimeMinister">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VideoGame">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VideogamesLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Village">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VoiceActor">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Volcano">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VolleyballLeague">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;VolleyballPlayer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WaterwayTunnel">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Weapon">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Website">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WineRegion">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WomensTennisAssociationTournament">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Work">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WorldHeritageSite">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Wrestler">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WrestlingEvent">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Writer">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;WrittenWork">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;Year">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpo;YearInSpaceflight">
+        <rdfs:isDefinedBy rdf:resource="&dbpo;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Article">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Article_(publishing)">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Audiobook">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Author">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Book">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;DAISY_Digital_Talking_Book">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;E-book">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Image">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Large-print">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Letter">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Library">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Manuscript">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Map">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Microform">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Newspaper">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Organisation">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Review">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Sheet_music">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Sound">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Uniform_resource_locator">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Video">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dbpr;Website">
+        <rdfs:isDefinedBy rdf:resource="&dbpr;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&event;Event">
+        <rdfs:isDefinedBy rdf:resource="&event;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&event;Factor">
+        <rdfs:isDefinedBy rdf:resource="&event;"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&event;Product">
+        <rdfs:isDefinedBy rdf:resource="&event;"/>
+    </rdf:Description>
+<!-- http://purl.org/NET/c4dm/timeline.owl#AbstractInstant -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#AbstractInterval -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#DiscreteInstant -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#DiscreteInterval -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#Instant -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#Interval -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#OriginMap -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#PhysicalTimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#RelativeInstant -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#RelativeInterval -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#RelativeTimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#ShiftMap -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#TimeLine -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#TimeLineMap -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#UTInstant -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#UTInterval -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#UniformSamplingMap -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#UniformSamplingWindowingMap -->
+<!-- http://purl.org/NET/c4dm/timeline.owl#UniformWindowingMap -->
+<!-- http://purl.org/ontology/bibo/Event -->
+<!-- http://purl.org/ontology/mo/Arranger -->
+<!-- http://purl.org/ontology/mo/Composer -->
+<!-- http://purl.org/ontology/mo/Conductor -->
+<!-- http://purl.org/ontology/mo/Listener -->
+<!-- http://purl.org/ontology/mo/Performer -->
+<!-- http://purl.org/ontology/mo/SoundEngineer -->
+<!-- http://www.w3.org/2000/10/swap/pim/contact#Person -->
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl"/>
+    </rdf:Description>
+<!-- http://www.w3.org/2003/01/geo/wgs84_pos#Point -->
+<!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+<!-- http://www.w3.org/2006/time#DateTimeDescription -->
+<!-- http://www.w3.org/2006/time#DateTimeInterval -->
+<!-- http://www.w3.org/2006/time#DayOfWeek -->
+<!-- http://www.w3.org/2006/time#DurationDescription -->
+<!-- http://www.w3.org/2006/time#Instant -->
+<!-- http://www.w3.org/2006/time#Interval -->
+<!-- http://www.w3.org/2006/time#January -->
+<!-- http://www.w3.org/2006/time#ProperInterval -->
+<!-- http://www.w3.org/2006/time#TemporalEntity -->
+<!-- http://www.w3.org/2006/time#TemporalUnit -->
+<!-- http://www.w3.org/2006/time#Year -->
+<!-- http://www.w3.org/2006/timezone#TimeZone -->
+<!-- http://www.w3.org/2006/vcard/ns#Address -->
+<!-- http://www.w3.org/2006/vcard/ns#BBS -->
+<!-- http://www.w3.org/2006/vcard/ns#Car -->
+<!-- http://www.w3.org/2006/vcard/ns#Cell -->
+<!-- http://www.w3.org/2006/vcard/ns#Dom -->
+<!-- http://www.w3.org/2006/vcard/ns#Email -->
+<!-- http://www.w3.org/2006/vcard/ns#Fax -->
+<!-- http://www.w3.org/2006/vcard/ns#Home -->
+<!-- http://www.w3.org/2006/vcard/ns#ISDN -->
+<!-- http://www.w3.org/2006/vcard/ns#Internet -->
+<!-- http://www.w3.org/2006/vcard/ns#Intl -->
+<!-- http://www.w3.org/2006/vcard/ns#Label -->
+<!-- http://www.w3.org/2006/vcard/ns#Location -->
+<!-- http://www.w3.org/2006/vcard/ns#Modem -->
+<!-- http://www.w3.org/2006/vcard/ns#Msg -->
+<!-- http://www.w3.org/2006/vcard/ns#Name -->
+<!-- http://www.w3.org/2006/vcard/ns#Organization -->
+<!-- http://www.w3.org/2006/vcard/ns#PCS -->
+<!-- http://www.w3.org/2006/vcard/ns#Pager -->
+<!-- http://www.w3.org/2006/vcard/ns#Parcel -->
+<!-- http://www.w3.org/2006/vcard/ns#Postal -->
+<!-- http://www.w3.org/2006/vcard/ns#Pref -->
+<!-- http://www.w3.org/2006/vcard/ns#Tel -->
+<!-- http://www.w3.org/2006/vcard/ns#VCard -->
+<!-- http://www.w3.org/2006/vcard/ns#Video -->
+<!-- http://www.w3.org/2006/vcard/ns#Voice -->
+<!-- http://www.w3.org/2006/vcard/ns#Work -->
+<!-- http://www.w3.org/2006/vcard/ns#X400 -->
+<!-- http://xmlns.com/foaf/0.1/Agent -->
+<!-- http://xmlns.com/foaf/0.1/Group -->
+<!-- http://xmlns.com/foaf/0.1/PersonalProfileDocument -->
+</rdf:RDF>

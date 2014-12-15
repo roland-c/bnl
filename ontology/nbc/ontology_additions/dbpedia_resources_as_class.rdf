@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dbpo "http://dbpedia.org/ontology/" >    
+    <!ENTITY dbpr "http://dbpedia.org/resource/" >
+]>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+   <rdf:Description rdf:about="&dbpr;Audiobook">
+       <rdfs:label xml:lang="nl">audioboek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;Book"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Sound"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;DAISY_Digital_Talking_Book">
+       <rdfs:label xml:lang="nl">daisy gesproken boek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Audiobook"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Author">
+       <rdfs:label xml:lang="nl">auteur</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;Person"/>       
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Article_(publishing)">
+       <rdfs:label xml:lang="nl">artikel</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Article">
+       <rdfs:label xml:lang="nl">artikel</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpr;Article_(publishing)"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Image">
+       <rdfs:label xml:lang="nl">afbeelding</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Letter">
+       <rdfs:label xml:lang="nl">brief</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Manuscript">
+       <rdfs:label xml:lang="nl">handschrift</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Map">
+       <rdfs:label xml:lang="nl">kaart</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Microform">
+       <rdfs:label xml:lang="nl">microfilm</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Sheet_music">
+       <rdfs:label xml:lang="nl">bladmuziek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;MusicalWork"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Sound">
+       <rdfs:label xml:lang="nl">geluid</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Book">
+       <rdfs:label xml:lang="nl">boek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpo;Book"/>
+   </rdf:Description>   
+   <rdf:Description rdf:about="&dbpr;E-book">
+       <rdfs:label xml:lang="nl">e-book</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;Book"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Website">
+       <rdfs:label xml:lang="nl">website</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpo;Website"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Video">
+       <rdfs:label xml:lang="nl">video</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Uniform_resource_locator">
+       <rdfs:label xml:lang="nl">online bron</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Newspaper">
+       <rdfs:label xml:lang="nl">krant</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpo;Newspaper"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Review">
+       <rdfs:label xml:lang="nl">recensie</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Article_(publishing)"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Organisation">
+       <rdfs:label xml:lang="nl">organisatie</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpo;Organisation"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Library">
+       <rdfs:label xml:lang="nl">bibliotheek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <dcterms:isReplacedBy rdf:resource="&dbpo;Library"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpr;Large-print">
+       <rdfs:label xml:lang="nl">grootletterboek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;Book"/>
+   </rdf:Description>   
+</rdf:RDF>

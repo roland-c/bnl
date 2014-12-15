@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY bibo "http://purl.org/ontology/bibo/" >
+    <!ENTITY dbpo "http://dbpedia.org/ontology/" >
+    <!ENTITY dbpr "http://dbpedia.org/resource/" >
+]>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/winklerprins/Lemma">
+       <rdfs:label xml:lang="nl">lemma</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Article_(publishing)"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Audio_Book_human-read">
+       <rdfs:label xml:lang="nl">audioboek (voorgelezen door mens)</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Audiobook"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Music_recorded">
+       <rdfs:label xml:lang="nl">muziek</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;MusicalWork"/>
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://schema.org/MusicRecording">
+      <dcterms:isReplacedBy rdf:resource="http://purl.org/ontology/mo/Track"/>
+   </rdf:Description>
+
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Pictures_moving">
+       <rdfs:label xml:lang="nl">film</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Video"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Audio_Book_computer-generated">
+       <rdfs:label xml:lang="nl">audioboek (computer gelezen)</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Audiobook"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Data">
+       <rdfs:label xml:lang="nl">gegevens</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpo;Book"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/gutenberg/Other_recordings">
+       <rdfs:label xml:lang="nl">opnamen</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Sound"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.bibliotheek.nl/ElectronischArtikel">
+       <rdfs:label xml:lang="nl">elektronisch artikel</rdfs:label>
+       <rdf:type rdf:resource="&owl;Class"/>
+       <rdfs:subClassOf rdf:resource="&dbpr;Article_(publishing)"/>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY bibo "http://purl.org/ontology/bibo/" >
+    <!ENTITY dbpo "http://dbpedia.org/ontology/" >
+    <!ENTITY dbpr "http://dbpedia.org/resource/" >
+    <!ENTITY mo "http://purl.org/ontology/mo/" >
+]>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+    <rdf:Description rdf:about="http://data.bibliotheek.nl/ns/nbc/oa#SummaryTypes">
+        <!-- <dcterms:hasPart rdf:resource="&dbpo;Event"/> -->
+
+        <dcterms:hasPart rdf:resource="&bibo;MultiVolumeBook"/>     <!-- subclass of Book -->
+        <dcterms:hasPart rdf:resource="&dbpo;Agent"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Album"/>               <!-- subclass of MusicalWork -->
+        <dcterms:hasPart rdf:resource="&dbpo;Book"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Film"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Game"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Library"/>             <!-- subclass of Organisation -->
+        <dcterms:hasPart rdf:resource="&dbpo;Magazine"/>            <!-- subclass of PeriodicalLiterature -->
+        <dcterms:hasPart rdf:resource="&dbpo;MusicalWork"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Newspaper"/>           <!-- subclass of PeriodicalLiterature and Organisation -->
+        <dcterms:hasPart rdf:resource="&dbpo;Organisation"/>        <!-- subclass of Agent -->
+        <dcterms:hasPart rdf:resource="&dbpo;PeriodicalLiterature"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Person"/>              <!-- subclass of Agent -->
+        <dcterms:hasPart rdf:resource="&mo;Track"/>                 <!-- subclass of MusicalWork and Sound -->
+        <dcterms:hasPart rdf:resource="&dbpo;Software"/>
+        <dcterms:hasPart rdf:resource="&dbpo;Website"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Article_(publishing)"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Audiobook"/>           <!-- subclass of Book and Sound -->
+        <dcterms:hasPart rdf:resource="&dbpr;DAISY_Digital_Talking_Book"/>    <!-- subclass of Audiobook -->
+        <dcterms:hasPart rdf:resource="&dbpr;E-book"/>              <!-- subclass of Book -->
+        <dcterms:hasPart rdf:resource="&dbpr;Image"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Letter"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Manuscript"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Sheet_music"/>         <!-- subclass of MusicalWork -->
+        <dcterms:hasPart rdf:resource="&dbpr;Sound"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Video"/>
+        <dcterms:hasPart rdf:resource="&dbpr;Large-print"/>         <!-- subclass of Book -->
+        <dcterms:hasPart rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </rdf:Description>
+</rdf:RDF>

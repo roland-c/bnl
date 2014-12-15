@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY bibo "http://purl.org/ontology/bibo/" >
+    <!ENTITY dbpo "http://dbpedia.org/ontology/" >
+    <!ENTITY mo "http://purl.org/ontology/mo/">
+]>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+   <rdf:Description rdf:about="&dbpo;Book">
+       <rdfs:label xml:lang="nl">boek</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;AcademicJournal">
+       <rdfs:label xml:lang="nl">academisch tijdschrift</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Activity">
+       <rdfs:label xml:lang="nl">activiteit</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Actor">
+       <rdfs:label xml:lang="nl">acteur</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Agent">
+       <rdfs:label xml:lang="nl">persoon of organisatie</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Album">
+       <rdfs:label xml:lang="nl">album</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Animal">
+       <rdfs:label xml:lang="nl">dier</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Award">
+       <rdfs:label xml:lang="nl">prijs</rdfs:label>
+   </rdf:Description>   
+   <rdf:Description rdf:about="&dbpo;Band">
+       <rdfs:label xml:lang="nl">band</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Company">
+       <rdfs:label xml:lang="nl">bedrijf</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Country">
+       <rdfs:label xml:lang="nl">land</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Event">
+       <rdfs:label xml:lang="nl">gebeurtenis</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Film">
+       <rdfs:label xml:lang="nl">film</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Game">
+       <rdfs:label xml:lang="nl">spel</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Library">
+       <rdfs:label xml:lang="nl">bibliotheek</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Magazine">
+       <rdfs:label xml:lang="nl">tijdschrift</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Monument">
+       <rdfs:label xml:lang="nl">monument</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Museum">
+       <rdfs:label xml:lang="nl">museum</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Musical">
+       <rdfs:label xml:lang="nl">musical</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;MusicalWork">
+       <rdfs:label xml:lang="nl">muziek</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Newspaper">
+       <rdfs:label xml:lang="nl">krant</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Organisation">
+       <rdfs:label xml:lang="nl">organisatie</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;PeriodicalLiterature">
+       <rdfs:label xml:lang="nl">periodiek</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Person">
+       <rdfs:label xml:lang="nl">persoon</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Place">
+       <rdfs:label xml:lang="nl">plaats</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;School">
+       <rdfs:label xml:lang="nl">school</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Software">
+       <rdfs:label xml:lang="nl">software</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Song">
+       <rdfs:label xml:lang="nl">lied</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="&dbpo;Website">
+       <rdfs:label xml:lang="nl">website</rdfs:label>
+   </rdf:Description>
+
+    <rdf:Description rdf:about="http://purl.org/NET/c4dm/event.owl#Event">
+        <rdfs:label xml:lang="nl">evenement</rdfs:label>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&bibo;Collection">
+        <rdfs:label xml:lang="nl">collectie</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&bibo;MultiVolumeBook">
+        <rdfs:label xml:lang="nl">meerdelig boek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&dbpo;Book"/>
+    </rdf:Description>    
+   <rdf:Description rdf:about="&bibo;Report">
+       <rdfs:label xml:lang="nl">rapport</rdfs:label>
+   </rdf:Description>
+
+  <rdf:Description rdf:about="&mo;Track">
+    <rdfs:label xml:lang="nl">track</rdfs:label>
+  </rdf:Description>
+
+</rdf:RDF>

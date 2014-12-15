@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY nbctype "http://data.bibliotheek.nl/ns/nbc/type#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+]>
+<!-- Gebaseerd op type schema van Brigit van Berkel. Zie https://wiki.zp.seecr.nl/TypeFacet2 28 juli 2014 -->
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+
+    <!-- top level types -->
+    <rdf:Description rdf:about="&nbctype;Audio">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">audio</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Boek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">boek</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;E-book">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <!-- top level and second level type -->
+        <rdfs:label xml:lang="nl">e-book</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Artikel">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">artikel</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Bladmuziek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">bladmuziek</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Tijdschrift">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">tijdschrift</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Beeldmateriaal">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">beeldmateriaal</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Games">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">games</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Software">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">software</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Website">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">website</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Evenement">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">evenement</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Overig">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">overig</rdfs:label>
+    </rdf:Description>
+
+    <!-- sub types -->
+    <rdf:Description rdf:about="&nbctype;Track">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">track</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Album">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">album</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Audio_Film">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">film</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Geluid">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">geluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Luisterboek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">luisterboek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Gesproken_boek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">gesproken boek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Audio"/>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Gedrukt_boek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">gedrukt boek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Meerdelig_boek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">meerdelig boek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Grootletterboek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">grootletterboek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Jaarboek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">jaarboek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Boek"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Krant">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">krant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Artikel"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Tijdschrift_artikel">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">tijdschrift</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Artikel"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Film">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">film</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Beeldmateriaal"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Documentaire">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">documentaire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Beeldmateriaal"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Muziek">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">muziek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Beeldmateriaal"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Handschrift">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">handschrift</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Overig"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Brief">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">brief</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Overig"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&nbctype;Afbeelding">
+        <rdf:type rdf:resource="&owl;Class"/>
+        <rdfs:isDefinedBy rdf:resource="&nbctype;"/>
+        <rdfs:label xml:lang="nl">afbeelding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&nbctype;Overig"/>
+    </rdf:Description>
+
+
+</rdf:RDF>
