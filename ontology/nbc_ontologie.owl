@@ -321,7 +321,9 @@
 
     <!-- http://purl.org/dc/terms/isPartOf -->
 
-    <owl:ObjectProperty rdf:about="&terms;isPartOf"/>
+    <owl:ObjectProperty rdf:about="&terms;isPartOf">
+        <owl:equivalentProperty rdf:resource="&schema;isPartOf"/>
+    </owl:ObjectProperty>
     
 
 
@@ -347,6 +349,15 @@
     <owl:ObjectProperty rdf:about="&terms;publisher">
         <rdfs:range rdf:resource="&ontology;Agent"/>
         <rdfs:range rdf:resource="&terms;Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="&schema;isPartOf">
+        <rdfs:range rdf:resource="&schema;CreativeWork"/>
+        <rdfs:domain rdf:resource="&schema;CreativeWork"/>
     </owl:ObjectProperty>
     
 
@@ -437,7 +448,9 @@
 
     <!-- http://dbpedia.org/ontology/Work -->
 
-    <owl:Class rdf:about="&ontology;Work"/>
+    <owl:Class rdf:about="&ontology;Work">
+        <owl:equivalentClass rdf:resource="&schema;CreativeWork"/>
+    </owl:Class>
     
 
 
@@ -576,6 +589,12 @@
     <!-- http://purl.org/vocab/frbr/core#Object -->
 
     <owl:Class rdf:about="http://purl.org/vocab/frbr/core#Object"/>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:Class rdf:about="&schema;CreativeWork"/>
     
 
 
