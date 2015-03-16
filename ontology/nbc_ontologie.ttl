@@ -1,0 +1,683 @@
+@prefix : <http://data.bibliotheek.nl/ontologie/nbc#> .
+@prefix CDR: <http://data.bibliotheek.nl/CDR/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ggc: <http://data.bibliotheek.nl/ns/nbc/ggc#> .
+@prefix nbc: <http://data.bibliotheek.nl/ns/nbc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbpo: <http://dbpedia.org/ontology/> .
+@prefix dbpr: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix books: <http://data.bibliotheek.nl/ns/nbc/books#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix holdings: <http://vocab.inf.ed.ac.uk/library/holdings#> .
+@base <http://data.bibliotheek.nl/ontologie/nbc> .
+
+<http://data.bibliotheek.nl/ontologie/nbc> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://data.bibliotheek.nl/CDR/aantalmedia
+
+CDR:aantalmedia rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/CDR/genrecode
+
+CDR:genrecode rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/CDR/mediumcode
+
+CDR:mediumcode rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/CDR/mediumomschrijving
+
+CDR:mediumomschrijving rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/CDR/nbdnummer
+
+CDR:nbdnummer rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/CDR/titelsoort
+
+CDR:titelsoort rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc#PEGI
+
+nbc:PEGI rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc#kijkwijzer
+
+nbc:kijkwijzer rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/books#badIsbn
+
+books:badIsbn rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/books#badIssn
+
+books:badIssn rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/books#printer
+
+books:printer rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/books#subtitle
+
+books:subtitle rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/ggc#appearanceFrequency
+
+ggc:appearanceFrequency rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/ggc#attachment
+
+ggc:attachment rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/ggc#countryOfPublication
+
+ggc:countryOfPublication rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/ggc#issue
+
+ggc:issue rdf:type owl:AnnotationProperty .
+
+
+
+###  http://data.bibliotheek.nl/ns/nbc/ggc#originalPublicationTitle
+
+ggc:originalPublicationTitle rdf:type owl:AnnotationProperty .
+
+
+
+###  http://dbpedia.org/ontology/viafId
+
+dbpo:viafId rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/alternative
+
+terms:alternative rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/date
+
+terms:date rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/description
+
+terms:description rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/extent
+
+terms:extent rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/identifier
+
+terms:identifier rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/isFormatOf
+
+terms:isFormatOf rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/issued
+
+terms:issued rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/subject
+
+terms:subject rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/title
+
+terms:title rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/ontology/bibo/edition
+
+bibo:edition rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/ontology/bibo/isbn
+
+bibo:isbn rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/ontology/bibo/issn
+
+bibo:issn rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/ontology/bibo/volume
+
+bibo:volume rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/duration
+
+schema:duration rdf:type owl:AnnotationProperty .
+
+
+
+###  http://schema.org/genre
+
+schema:genre rdf:type owl:AnnotationProperty .
+
+
+
+###  http://vocab.inf.ed.ac.uk/library/holdings#item
+
+holdings:item rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#altLabel
+
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+
+skos:note rdf:type owl:AnnotationProperty .
+
+
+
+###  http://xmlns.com/foaf/0.1/name
+
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://purl.org/dc/terms/audience
+
+terms:audience rdf:type owl:ObjectProperty ;
+               
+               rdfs:range terms:AgentClass .
+
+
+
+###  http://purl.org/dc/terms/contributor
+
+terms:contributor rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:range dbpo:Agent ,
+                             terms:Agent .
+
+
+
+###  http://purl.org/dc/terms/creator
+
+terms:creator rdf:type owl:ObjectProperty ;
+              
+              rdfs:range dbpo:Agent ,
+                         terms:Agent .
+
+
+
+###  http://purl.org/dc/terms/format
+
+terms:format rdf:type owl:ObjectProperty ;
+             
+             rdfs:range terms:MediaTypeOrExtent .
+
+
+
+###  http://purl.org/dc/terms/isPartOf
+
+terms:isPartOf rdf:type owl:ObjectProperty ;
+               
+               owl:equivalentProperty schema:isPartOf .
+
+
+
+###  http://purl.org/dc/terms/language
+
+terms:language rdf:type owl:ObjectProperty ;
+               
+               rdfs:range terms:LinguisticSystem .
+
+
+
+###  http://purl.org/dc/terms/medium
+
+terms:medium rdf:type owl:ObjectProperty ;
+             
+             rdfs:range terms:PhysicalMedium ;
+             
+             rdfs:domain terms:PhysicalResource .
+
+
+
+###  http://purl.org/dc/terms/publisher
+
+terms:publisher rdf:type owl:ObjectProperty ;
+                
+                rdfs:range dbpo:Agent ,
+                           terms:Agent .
+
+
+
+###  http://schema.org/isPartOf
+
+schema:isPartOf rdf:type owl:ObjectProperty ;
+                
+                rdfs:range schema:CreativeWork ;
+                
+                rdfs:domain schema:CreativeWork .
+
+
+
+###  http://www.w3.org/2000/01/rdf-schema#subClassOf
+
+rdfs:subClassOf rdf:type owl:ObjectProperty ,
+                         owl:TransitiveProperty .
+
+
+
+###  http://www.w3.org/2004/02/skos/core#exactMatch
+
+skos:exactMatch rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain <http://www.w3.org/2009/08/skos-reference/skos.html#Concept> ;
+                
+                rdfs:range <http://www.w3.org/2009/08/skos-reference/skos.html#Concept> .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://dbpedia.org/ontology/Agent
+
+dbpo:Agent rdf:type owl:Class ;
+           
+           owl:equivalentClass terms:Agent ,
+                               <http://www.gutenberg.org/2009/pgterms/agent> .
+
+
+
+###  http://dbpedia.org/ontology/Album
+
+dbpo:Album rdf:type owl:Class ;
+           
+           rdfs:subClassOf dbpo:MusicalWork .
+
+
+
+###  http://dbpedia.org/ontology/Book
+
+dbpo:Book rdf:type owl:Class ;
+          
+          rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/Document
+
+dbpo:Document rdf:type owl:Class ;
+              
+              owl:equivalentClass bibo:Document ;
+              
+              rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/Event
+
+dbpo:Event rdf:type owl:Class ;
+           
+           owl:equivalentClass <http://purl.org/NET/c4dm/event.owl#Event> .
+
+
+
+###  http://dbpedia.org/ontology/File
+
+dbpo:File rdf:type owl:Class ;
+          
+          rdfs:subClassOf dbpo:Document .
+
+
+
+###  http://dbpedia.org/ontology/Film
+
+dbpo:Film rdf:type owl:Class ;
+          
+          rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/Image
+
+dbpo:Image rdf:type owl:Class ;
+           
+           rdfs:subClassOf dbpo:Document .
+
+
+
+###  http://dbpedia.org/ontology/Library
+
+dbpo:Library rdf:type owl:Class ;
+             
+             rdfs:subClassOf geo:SpatialThing .
+
+
+
+###  http://dbpedia.org/ontology/MusicalWork
+
+dbpo:MusicalWork rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/PeriodicalLiterature
+
+dbpo:PeriodicalLiterature rdf:type owl:Class ;
+                          
+                          rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/Person
+
+dbpo:Person rdf:type owl:Class ;
+            
+            rdfs:subClassOf dbpo:Agent .
+
+
+
+###  http://dbpedia.org/ontology/Software
+
+dbpo:Software rdf:type owl:Class ;
+              
+              rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/ontology/Sound
+
+dbpo:Sound rdf:type owl:Class ;
+           
+           rdfs:subClassOf dbpo:Document .
+
+
+
+###  http://dbpedia.org/ontology/Work
+
+dbpo:Work rdf:type owl:Class ;
+          
+          owl:equivalentClass schema:CreativeWork .
+
+
+
+###  http://dbpedia.org/resource/Audiobook
+
+dbpr:Audiobook rdf:type owl:Class ;
+               
+               rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://dbpedia.org/resource/DAISY_Digital_Talking_Book
+
+dbpr:DAISY_Digital_Talking_Book rdf:type owl:Class ;
+                                
+                                rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://dbpedia.org/resource/E-book
+
+dbpr:E-book rdf:type owl:Class ;
+            
+            owl:equivalentClass <http://www.gutenberg.org/2009/pgterms/ebook> ;
+            
+            rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://dbpedia.org/resource/Image
+
+dbpr:Image rdf:type owl:Class .
+
+
+
+###  http://dbpedia.org/resource/Large-print
+
+dbpr:Large-print rdf:type owl:Class .
+
+
+
+###  http://dbpedia.org/resource/Letter
+
+dbpr:Letter rdf:type owl:Class ;
+            
+            rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/resource/Manuscript
+
+dbpr:Manuscript rdf:type owl:Class ;
+                
+                rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://dbpedia.org/resource/Map
+
+dbpr:Map rdf:type owl:Class ;
+         
+         rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/resource/Sheet_music
+
+dbpr:Sheet_music rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://dbpedia.org/resource/Sound
+
+dbpr:Sound rdf:type owl:Class .
+
+
+
+###  http://dbpedia.org/resource/Uniform_resource_locator
+
+dbpr:Uniform_resource_locator rdf:type owl:Class .
+
+
+
+###  http://dbpedia.org/resource/Article_(publishing)
+
+<http://dbpedia.org/resource/Article_(publishing)> rdf:type owl:Class ;
+                                                   
+                                                   rdfs:subClassOf dbpo:Work .
+
+
+
+###  http://purl.org/NET/c4dm/event.owl#Event
+
+<http://purl.org/NET/c4dm/event.owl#Event> rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/Agent
+
+terms:Agent rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/AgentClass
+
+terms:AgentClass rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/LinguisticSystem
+
+terms:LinguisticSystem rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/MediaTypeOrExtent
+
+terms:MediaTypeOrExtent rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/PhysicalMedium
+
+terms:PhysicalMedium rdf:type owl:Class .
+
+
+
+###  http://purl.org/dc/terms/PhysicalResource
+
+terms:PhysicalResource rdf:type owl:Class .
+
+
+
+###  http://purl.org/ontology/bibo/Document
+
+bibo:Document rdf:type owl:Class .
+
+
+
+###  http://purl.org/ontology/bibo/MultiVolumeBook
+
+bibo:MultiVolumeBook rdf:type owl:Class ;
+                     
+                     rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://purl.org/vocab/frbr/core#Object
+
+<http://purl.org/vocab/frbr/core#Object> rdf:type owl:Class .
+
+
+
+###  http://schema.org/CreativeWork
+
+schema:CreativeWork rdf:type owl:Class .
+
+
+
+###  http://www.gutenberg.org/2009/pgterms/agent
+
+<http://www.gutenberg.org/2009/pgterms/agent> rdf:type owl:Class .
+
+
+
+###  http://www.gutenberg.org/2009/pgterms/ebook
+
+<http://www.gutenberg.org/2009/pgterms/ebook> rdf:type owl:Class ;
+                                              
+                                              rdfs:subClassOf dbpo:Book .
+
+
+
+###  http://www.w3.org/2002/07/owl#Ontology
+
+owl:Ontology rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+
+geo:SpatialThing rdf:type owl:Class .
+
+
+
+###  http://www.w3.org/2009/08/skos-reference/skos.html#Concept
+
+<http://www.w3.org/2009/08/skos-reference/skos.html#Concept> rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+
