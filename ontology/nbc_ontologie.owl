@@ -397,8 +397,8 @@
     <!-- http://dbpedia.org/ontology/Agent -->
 
     <owl:Class rdf:about="&dbpo;Agent">
-        <owl:equivalentClass rdf:resource="&terms;Agent"/>
         <owl:equivalentClass rdf:resource="http://www.gutenberg.org/2009/pgterms/agent"/>
+        <rdfs:subClassOf rdf:resource="&terms;Agent"/>
     </owl:Class>
     
 
@@ -675,7 +675,9 @@
 
     <!-- http://www.gutenberg.org/2009/pgterms/agent -->
 
-    <owl:Class rdf:about="http://www.gutenberg.org/2009/pgterms/agent"/>
+    <owl:Class rdf:about="http://www.gutenberg.org/2009/pgterms/agent">
+        <rdfs:subClassOf rdf:resource="&terms;Agent"/>
+    </owl:Class>
     
 
 

@@ -369,8 +369,9 @@ skos:exactMatch rdf:type owl:ObjectProperty ;
 
 dbpo:Agent rdf:type owl:Class ;
            
-           owl:equivalentClass terms:Agent ,
-                               <http://www.gutenberg.org/2009/pgterms/agent> .
+           owl:equivalentClass <http://www.gutenberg.org/2009/pgterms/agent> ;
+           
+           rdfs:subClassOf terms:Agent .
 
 
 
@@ -648,7 +649,9 @@ schema:CreativeWork rdf:type owl:Class .
 
 ###  http://www.gutenberg.org/2009/pgterms/agent
 
-<http://www.gutenberg.org/2009/pgterms/agent> rdf:type owl:Class .
+<http://www.gutenberg.org/2009/pgterms/agent> rdf:type owl:Class ;
+                                              
+                                              rdfs:subClassOf terms:Agent .
 
 
 
