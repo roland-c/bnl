@@ -405,7 +405,7 @@ dbpo:Document rdf:type owl:Class ;
 
 dbpo:Event rdf:type owl:Class ;
            
-           owl:equivalentClass <http://purl.org/NET/c4dm/event.owl#Event> .
+           rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
 
 
 

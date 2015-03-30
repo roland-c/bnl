@@ -431,7 +431,7 @@
     <!-- http://dbpedia.org/ontology/Event -->
 
     <owl:Class rdf:about="&dbpo;Event">
-        <owl:equivalentClass rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/NET/c4dm/event.owl#Event"/>
     </owl:Class>
     
 
