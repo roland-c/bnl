@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://data.bibliotheek.nl/ontologie/nbc" uri="nbc_ontologie.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://dbpedia.org/ontology/" uri="nbc/ontologies/dbpedia_3.8.owl.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://purl.org/ontology/bibo/" uri="nbc/ontologies/bibo.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://purl.org/ontology/mo/" uri="nbc/ontologies/musicontology.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://www.w3.org/2004/02/skos/core" uri="nbc/ontologies/skos.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1427708003082" name="http://www.w3.org/2006/time" uri="nbc/ontologies/time.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://data.bibliotheek.nl/ontologie/nbc" uri="nbc_ontologie.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://dbpedia.org/ontology/" uri="nbc/ontologies/dbpedia_3.8.owl.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://purl.org/ontology/bibo/" uri="nbc/ontologies/bibo.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://purl.org/ontology/mo/" uri="nbc/ontologies/musicontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://www.w3.org/2004/02/skos/core" uri="nbc/ontologies/skos.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1429274536384" name="http://www.w3.org/2006/time" uri="nbc/ontologies/time.rdf"/>
     </group>
 </catalog>
